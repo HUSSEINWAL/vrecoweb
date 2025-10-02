@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1">
+    <title>Vinyl real estate company</title>
+    <meta name="keywords" content="apartments, rentals, apartment guide,
+    apartment finder, apartment search, apartment locator, apartments for rent, apartment listings">
+    <meta name="referrer" content="always">
+    <meta name="author" content="VRECO">
+    <meta name="description" content="VRECO offers luxury studio, one, two, and 
+    three bedroom apartments and townhomes on the border of West Hollywood and Hollywood.">
+    <link rel="stylesheet" href="vreco.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>VRECO</h1>
+            <p>VINYL REAL ESTATE COMPANY</p>
+        </div>
+        <div class="menu-icon" onclick="openMenu()">☰</div>
+
+        <div class="menu-overlay" id="menuOverlay">
+            <div class="close-icon" onclick="closeMenu()">✖</div>
+            <div class="menu-content">
+                <a href="">HOME</a>
+                <a href="">FEATURES</a>
+                <a href="">FLOOR PLANS</a>
+                <a href="">NEIGHBORHOOD</a>
+                <a href="">GALLERY</a>
+                <a href="">CONTACT US</a>
+                <a href="">LEVEL FURNISHED SUITES</a>
+                <a href="">RESIDENTS</a>
+            </div>
+        </div>
+        <div class="button">
+            <button id="Bookatour" onsubmit="bookATour()">BOOK A TOUR</button>
+            <button id="applynow" onsubmit="applyNow()">APPLY NOW</button>
+        </div>
+    </header>
+    <div class="remainings">
+        <h2>LUXURY RENTAL HOMES IN HEART <br /> OF KAMPALA</h2>
+        <P>MOVE IN TODAY</P>
+        <BUTTon id="remainings">AVAILABLE HOMES</BUTTon>
+    </div>
+    <div class="culture">
+        <h3>CAPUTURE THE CULTURE IN UGANDA</h3>
+        <p>A unique collection of 300 luxury rental apartments perfectly situated in the heart of uganda. VRECO offers
+            studio, one, and two bedroom<br />
+            rental apartments and two and three bedroom rental townhomes. These residences feature
+            open-concept living, large private balconies, integrated appliances, and unrivaled amenities.
+            Life at VRECO puts you at the center of it all; steps away from fashionable shopping, iconic restaurants,
+            and world-renowned galleries.</p>
+    </div>
+    <section class="livings">
+        <article>
+            <h4> KAMPALA'S NEW <br />STANDARD OF LIVING</h4>
+            <p> Experience the pinnacle of luxury rental living in kampala with our <br />
+                sophisticated features and finishes that are setting a newstandard for <br />
+                upscale living. Our homes feature meticulously designed floorplans, <br />
+                boasting design-forward features that exude elegance and refinement. <br />
+                Join us and experience the epitome of luxury rental living.</p>
+            <botton id="viewInterior" onsubmit="viewInterior()">VIEW INTERIOR</botton>
+        </article>
+        <aside class="interiorimage">
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <img src="furniture1.jfif" alt="">
+                    <img src="furniture2.jfif" alt="">
+                    <img src="furniture3.jfif" alt="">
+                    <img src="furniture4.jfif" alt="">
+                    <img src="furniture5.jfif" alt="">
+                    <img src="furniture6.jfif" alt="">
+                </div>
+            </div>
+        </aside>
+    </section>
+    <diV class="cofortability">
+        <div class="CONFORTABLE">
+            <h5>CONFORTABLE<br /><span>HOMES</span></h5>
+            <p>Stay home and enjoy exclusive<br /><b>confortable</b> spaces
+                designed <br />for relax and to give calm mindset.</p>
+        </div>
+        <div class="scroll-container">
+            <div class="scroll-content">
+                <img src="house.jfif" alt="">
+                <img src="house2.jfif" alt="">
+                <img src="flats.jfif" alt="">
+                <img src="flats2.jfif" alt="">
+                <img src="house3.jfif" alt="">
+                <img src="house4.jfif" alt="">
+            </div>
+        </div>
+        <div class="homefeatures">
+            <div class="pool">
+                <div class="header-image">
+                    <img src="pool.png" width="100px" height="100px" alt="">
+                    <h6>OUT DOOR POOL</h6>
+                </div>
+                <p>Enjoy the luxurious <br />
+                    outdoor pool wrapped<br />
+                    by an expansive deck <br />
+                    featuring lounge chairs <br />
+                    and beautifulviews of <br />
+                    kampala</p>
+            </div>
+            <div class="work">
+                <div class="header-image">
+                    <h7>WORK LAB</h7>
+                    <img src="worklab.png" width="100px" height="100px" alt="">
+                </div>
+                <p>An extension of your office <br />
+                    is just downstairs; the <br />
+                    co-working space features<br />
+                    complimentary Wi-Fi<br />
+                    and private phone rooms.</p>
+            </div>
+            <div class="gym">
+                <div class="header-image">
+                    <h8>GYM CENTER</h8>
+                    <img src="gym.png" width="100px" height="100px">
+                </div>
+                <p>Featured with all Gadgets<br />
+                    such as weightlifting <br />
+                    equipment making there <br />
+                    no better place to workout <br />
+                    than at home.</p>
+            </div>
+            <div class="bar">
+                <div class="header-image">
+                    <h9>BAR</h9>
+                    <img src="bar.png" width="100px" height="100px" alt="">
+                </div>
+                <p>We have a well stocked<br />
+                    bar with all your most <br />
+                    priority drinks to make<br />
+                    you calm and save at <br />home bar</p>
+            </div>
+        </div>
+    </diV>
+    <div class="gallerier">
+        <div class="gall-discription">
+            <h10>GALLERY</h10>
+            <p>Discover the most confortable and exptional
+                life at <b>VRECO</b></p>
+        </div>
+
+        <div class="gallery-btn">
+            <button id="gallery-btn" onsubmit="openGallery()">VIEW GALLERY</button>
+        </div>
+    </div>
+    <section class="bigimages">
+        <article>
+            <div class="bigimage">
+                <div class="scroll-container">
+                    <div class="scroll-content">
+                        <img src="bigimage.jpg" alt="">
+                        <img src="bed.jfif" alt="">
+                        <img src="bed1.jfif" alt="">
+                        <img src="bed2.jfif" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside>
+
+        </aside>
+    </section>
+    <div class="contact-location">
+        <div class="hours">
+            <h14>OPEN HOURS</h14>
+            <ul>
+                <li>Monday: 8 AM to- 6 PM</li>
+                <li>Tuesday: 8 AM to- 6 PM</li>
+                <li>Wednesday: 8 AM to- 6 PM</li>
+                <li>Thursday: 8 AM to- 6 PM</li>
+                <li>Friday: 8 AM to- 6 PM</li>
+                <li>Saturday: 8 AM to- 6 PM</li>
+                <li>Sunday: 9:30 AM to- 6 PM</li>
+                <li>PUBLIC HOLIDAYS: ON APPOINTMENT</li>
+            </ul>
+        </div>
+        <div class="email">
+            <h15>GENERAL INQUIRES</h15>
+            <ul>
+                <li>EMAIL: <a href="verco@customerinquire.com">verco@customerinquire.com</a>
+                <li>TEL: +256 700648795</li>
+                <li><a href=""><img src="facebook.png" width="20px" height="20px" /></a></li>
+                <li><a href=""><img src="youtube.png" width="20px" height="20px" /></a></li>
+                <li><a href=""><img src="instagram.png" width="20px" height="20px" /></a></li>
+
+            </ul>
+        </div>
+        <div class="locations">
+            <h16>LOCATION</h16>
+            <ul>
+                <li>USA: BEVERLY HILL PLOT 56A CALIFORNIA </li>
+                <li>UAE: DUBAI BUSINESS BAY NO. 658</li>
+                <li>UGANDA: KOLOLO HILL DRIVE PLOT 662 KAMPALA</li>
+                <li>UK: LONDON QUEEN'S ROAD PLOT A57</li>
+                <li>GERMANY: BERLIN TOWERS NO. 67-69 BERLIN </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; rights reserved to <b>VRECO</b> designed by Walugembe Hussein <a href="princetechwebsite">(PRINCE TECH
+                Uganda)</a>
+    </footer>
+    <script>
+        function openMenu() { document.getElementById("menuOverlay").style.display = "flex"; }
+        function closeMenu() { document.getElementById("menuOverlay").style.display = "none"; } 
+    </script
+</body>
+
+</html>
